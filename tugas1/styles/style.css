@@ -1,0 +1,210 @@
+/* general - START */
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 55px;
+  margin: 20px;
+}
+p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+img {
+  width: 500px;
+}
+/* general - END */
+
+/* ruby - header - START */
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 182, 46);
+    z-index: 1;
+  }
+
+  .navbar-title {
+    font-size: 24;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+/* ruby - header - END */
+
+
+
+/* ilham hanifan - article - START */
+article {
+  margin-left: 30px;
+  margin-top: 34px;
+  margin-bottom: 10px;
+}
+article h2 {
+  font-size: 33px;
+}
+article p{
+  margin-top: 5px;
+  margin-left: 0px;
+}
+/* ilham hanifan - article - END */
+
+
+
+/* ilham hanifan - profile cards - START */
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+
+
+  box-shadow: 0px 10px 0px #963f05;
+
+
+  background: rgba(255, 224, 48, 0.87);
+  margin: 50px 10px;
+  text-align: center;
+  display: block;
+  display: inline-block;
+  max-width:500px;
+}
+
+.card img {
+  max-width:420px;
+min-width:444px;
+}
+
+.card h3{
+  margin-bottom: 8px;
+}
+.card h4{
+  margin-bottom: 5px;
+}
+
+
+a {
+text-decoration: none;
+font-size: 22px;
+color: black;
+}
+
+a:hover {
+opacity: 0.7;
+}
+/* ilham hanifan - profile cards - END */
+
+
+
+/* gammaral - footer - START */
+footer{
+  border-top: 1px solid black;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(255, 182, 46);
+  height: 100px;
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px 0 20px 0;
+  
+}
+
+.footer-content{
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-content img{
+  margin-top: 0;
+  width: 170px;
+}
+
+.footer-content label{
+  /* margin-left: 10px; */
+  margin-top: 0;
+  font-family:open sans; 
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.footer-content span{
+  color: rgb(0, 0, 0);
+  margin-top: 0;
+}
+/* gammaral - footer - END */
+
+
+
+
+/* rifqi - content - START*/
+.top-wrapper {
+  padding: 80px 60px;
+  background-color: #292b2f;
+  height: 900px;
+  background-size: cover;
+  text-align: center;
+}
+
+.imgkiri {
+  width: 600px;
+  object-fit: cover;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.copy-container {
+  padding-top: 200px;
+  padding-left: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.copy-container h1 {
+  width: 553px;
+
+  font-family: 'Iosevka' 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  text-align: left;
+  line-height: 95px;
+  color: gray;
+  padding-left: 200px;
+  margin: 0;
+}
+.copy-container span {
+  color: crimson;
+font-size: 150px;
+}
+
+.wave-reversed{
+  background-color: #fff;
+}
+
+.wave-reversed > svg {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  display: block;
+}
+/* rifqi - content - END*/
